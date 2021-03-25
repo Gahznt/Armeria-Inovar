@@ -16,16 +16,14 @@ https://templatemo.com/tm-538-digital-trend
 
   @font-face {
       font-family: 'Plain-Light';
-      src: url('../fonts/Plain-Light.woff2') format('woff2'),
-          url('../fonts/Plain-Light.woff') format('woff');
+      src: url('../fonts/BarlowCondensed-Light.ttf') format('truetype');
       font-weight: bold;
       font-style: normal;
   }
 
   @font-face {
       font-family: 'Plain-Bold';
-      src: url('../fonts/Plain-Bold.woff2') format('woff2'),
-          url('../fonts/Plain-Bold.woff') format('woff');
+      src: url('../fonts/BarlowCondensed-Bold.ttf') format('truetype');
       font-weight: bold;
       font-style: normal;
   }
@@ -35,7 +33,7 @@ https://templatemo.com/tm-538-digital-trend
     --secondary-color:      #d70000;
     --white-color:          #ffffff;
     --dark-color:           #171819;
-    --project-bg:           #f0f8ff;
+    --project-bg:           #171819;
     --menu-bg:              #f3f3f3;
 
     --title-color:          #15141a;
@@ -53,7 +51,7 @@ https://templatemo.com/tm-538-digital-trend
     --h3-font-size:         24px;
     --p-font-size:          18px;
     --base-font-size:       16px;
-    --menu-font-size:       14px;
+    --menu-font-size:       17px;
 
     --border-radius-large:  100px;
     --border-radius-small:  5px;
@@ -344,8 +342,8 @@ https://templatemo.com/tm-538-digital-trend
   .hero {
     background-position: center; 
     background-size: auto; 
-    padding: 6% 0;
-    height:614px;
+    padding: 13% 0;
+    height:100%;
     width: 100%;
     background: url("../images/bg_home.jpg") center;
   }
@@ -485,6 +483,10 @@ https://templatemo.com/tm-538-digital-trend
   .about-image img {
     display: block;
     margin: 0 auto;
+  }
+
+  .aos-init {
+    font-family: 'Montserrat', sans-serif;
   }
 
 
